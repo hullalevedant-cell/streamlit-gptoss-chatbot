@@ -432,7 +432,7 @@ st.markdown(
 
         left: 50% !important;
 
-        bottom: 20px !important;
+        bottom: 60px !important;
 
         transform: translateX(-50%) !important;
 
@@ -533,7 +533,7 @@ st.markdown(
 
         right: 28px !important;
 
-        bottom: 20px !important;
+        bottom: 60px !important;
 
         width: 190px !important;
 
