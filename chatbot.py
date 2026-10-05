@@ -24,9 +24,9 @@ st.set_page_config(
     layout="wide",
 )
 
-# -------------------------
+
 # Visual design only
-# -------------------------
+
 st.markdown(
     """
     <style>
@@ -76,9 +76,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# -------------------------
+
 # Session state
-# -------------------------
+
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
@@ -86,7 +86,6 @@ if "chat_history" not in st.session_state:
     ]
 
 
-# -------------------------
 # UI
 st.markdown(
     '<div class="app-heading"><h2>GPT OSS</h2><p>AI Assistant</p></div>',
@@ -112,9 +111,9 @@ for role, message in st.session_state.chat_history:
         st.markdown(message)
 
 
-# -------------------------
+
 # User input
-# -------------------------
+
 
 user_input = st.chat_input("Type a message...")
 
