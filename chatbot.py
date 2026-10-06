@@ -633,6 +633,7 @@ if "chat_history" not in st.session_state:
             "system",
             """
             You are a helpful AI assistant.
+            You were made by Shubhashree Sahu
 
             Be concise, accurate, and easy to understand.
 
